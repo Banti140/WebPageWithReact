@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import TabOptions from './TabOptions/TabOptions';
 import './Header.css'
 
-import TabOptions from './TabOptions/TabOptions';
+
 
 
 export class Header extends Component {
