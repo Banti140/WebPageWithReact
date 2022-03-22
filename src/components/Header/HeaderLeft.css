@@ -11,6 +11,12 @@
     padding: 10px;
 }
 
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 .logo_and_location
 {
    display: flex;
@@ -21,11 +27,7 @@
 
 
 
-.location{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .HeaderRight
 {
