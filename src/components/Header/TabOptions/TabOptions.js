@@ -9,20 +9,16 @@ export class TabOptions extends Component {
       super();
       this.options = [
           {
-              name: "Help",
-              id: 1,
+              name: "Help"
           },
           {
-            name: "Offers",
-            id: 2,
+            name: "Offers"
           },
           {
-            name: "Sign In",
-            id: 3,
+            name: "Sign In"
           },
           {
-            name: "Cart",
-            id: 4,
+            name: "Cart"
           }];
 
   }  
@@ -30,7 +26,7 @@ export class TabOptions extends Component {
     return <div className='tab_options'>
         {this.options.map((option)=>
         {    
-        return <TabOption key={option.id} details={option}/>
+        return <TabOption details={option}/>
         })}
     </div>;
   }
