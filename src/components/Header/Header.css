@@ -11,6 +11,12 @@
    margin-left: 50px;
 }
 
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 .logo_img
 {
     height: 60px;
@@ -18,11 +24,7 @@
     padding: 10px;
 }
 
-.location{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .tab_options
 {
