@@ -4,6 +4,13 @@
     height: 80px;
 }
 
+.logo_img
+{
+    height: 60px;
+    width: 60x;
+    padding: 10px;
+}
+
 .logo_and_location
 {
    display: flex;
@@ -12,12 +19,7 @@
    margin-right: 850px;
 }
 
-.logo_img
-{
-    height: 60px;
-    width: 60x;
-    padding: 10px;
-}
+
 
 .location{
   display: flex;
